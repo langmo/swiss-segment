@@ -1,0 +1,45 @@
+ant:
+<ant>
+  <mkdir dir="C:\swiss-segment\swiss-segment\SwissSegment\for_redistribution" />
+  <mkdir dir="C:\swiss-segment\swiss-segment\SwissSegment\for_testing" />
+  <mkdir dir="C:\swiss-segment\swiss-segment\SwissSegment\for_redistribution_files_only" />
+</ant>
+mcc -C -o SwissSegment -W WinMain:SwissSegment -T link:exe -d C:\swiss-segment\swiss-segment\SwissSegment\for_testing -R '-logfile,log.txt' -v C:\swiss-segment\swiss-segment\swissSegment.m -a C:\swiss-segment\swiss-segment\analyzeBaseProperties.m -a C:\swiss-segment\swiss-segment\analyzeHistograms.m -a C:\swiss-segment\swiss-segment\analyzeHistogramsOverTime.m -a C:\swiss-segment\swiss-segment\basePropertiesOverTime.m -a C:\swiss-segment\swiss-segment\configurationWizard.m -a C:\swiss-segment\swiss-segment\createSegmentationCallback.m -a C:\swiss-segment\swiss-segment\detectorConfi.m -a C:\swiss-segment\swiss-segment\generateMeanImage.m -a C:\swiss-segment\swiss-segment\getColors.m -a C:\swiss-segment\swiss-segment\getHistogram.m -a C:\swiss-segment\swiss-segment\getImage.m -a C:\swiss-segment\swiss-segment\histogramsOverTime.m -a C:\swiss-segment\swiss-segment\icon.png -a C:\swiss-segment\swiss-segment\LICENSE -a C:\swiss-segment\swiss-segment\matterhorn.jpg -a C:\swiss-segment\swiss-segment\philosophy.m -a C:\swiss-segment\swiss-segment\plotComposedImage.m -a C:\swiss-segment\swiss-segment\plotHistogramOverTime.m -a C:\swiss-segment\swiss-segment\preprocessImage.m -a C:\swiss-segment\swiss-segment\processImage.m -a C:\swiss-segment\swiss-segment\README.md -a C:\swiss-segment\swiss-segment\saveFigure.m -a C:\swiss-segment\swiss-segment\saveImage.m -a C:\swiss-segment\swiss-segment\segmentDrops.m -a C:\swiss-segment\swiss-segment\segmentImage.mexw64 -a C:\OneDrive\ethz\matlab\standard\setPrintLayout.m -a C:\swiss-segment\swiss-segment\setSwissLayout.m -a C:\swiss-segment\swiss-segment\setWindowIcon.m -a C:\swiss-segment\swiss-segment\swissSegment.m -a C:\swiss-segment\swiss-segment\swissWaitbar.m -a C:\OneDrive\ethz\matlab\standard\waitbar.m 
+Compiler version: 6.0 (R2015a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\swiss-segment\swiss-segment" to Compiler path
+instance.] 
+Parsing file "C:\swiss-segment\swiss-segment\swissSegment.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 21 temporary MEX authorization files.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_068387694_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683826039_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683824465_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683825717_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_068384000_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683827911_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683821199_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_068386005_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683822455_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683823490_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683829406_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683811968_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683830375_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683828346_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_068384062_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683826187_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683829606_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_068387965_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683820944_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683819298_26680.auth'.
+Removing: 'C:\Users\mlang\AppData\Local\Temp\mathworks_tmp_0683820099_26680.auth'.
+Generating file "C:\swiss-segment\swiss-segment\SwissSegment\for_testing\readme.txt".
+Packaging...
+Adding custom icon C:\swiss-segment\swiss-segment\SwissSegment_resources\icon.ico to C:\swiss-segment\swiss-segment\SwissSegment\for_testing\SwissSegment.exe.
+Attempting to embed the CTF archive into the application C:\swiss-segment\swiss-segment\SwissSegment\for_testing\SwissSegment.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\swiss-segment\swiss-segment\SwissSegment\for_redistribution\SwissSegmentInstaller_web.exe.
+Self contained installer created at C:\swiss-segment\swiss-segment\SwissSegment\for_redistribution\SwissSegmentInstaller_mcr.exe.
+Packaging complete.
+Elapsed packaging time was: 4 minutes and 20 seconds.

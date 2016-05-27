@@ -428,14 +428,14 @@ end
 
 %% Menu About
 function about(~, ~)
-    msgbox(sprintf('SwissSegment was created by\nMoritz Lang\nComputational Systems Biology Group\nETH Zurich\nMattenstrasse 26\n4058 Basel\nSwitzerland\n\nSwissSegment is OpenSource\n(see license file for details)\n\nFor questions and comments, please contact\nmoritz.lang@bsse.ethz.ch'),...
+    msgbox(sprintf('SwissSegment was created by\nMoritz Lang\nIST Austria\nAm Campus 1\n3400 Klosterneuburg\nAustria\n\nSwissSegment is licensed under the\nGNU GENERAL PUBLIC LICENSE, V3\n\nFor questions and comments, please contact\nmoritz.lang@outlook.com'),...
         'About SwissSegment', ...
         'modal');
 end
 
 %% Menu gotoHomepage
 function gotoHomepage(~, ~)
-    web('http://www.csb.ethz.ch', '-browser' )
+    web('http://www.ist.ac.at', '-browser' )
 end
 
 %% Menu to start new segmentation

@@ -1,7 +1,7 @@
 function philosophy(varargin)
 % Shows the philosophy frame
 
-    figureDim = [500, 300];
+    figureDim = [500, 400];
 
     figH = figure('Units', 'pixels',...
         'Color', [1, 1, 1],...
