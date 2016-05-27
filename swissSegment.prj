@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="794142861" file="C:\swiss-segment\swiss-segment\SwissSegment.prj" location="C:\swiss-segment\swiss-segment" name="SwissSegment" preferred-package-location="C:\swiss-segment\swiss-segment\SwissSegment\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="1655689113" file="C:\swiss-segment\swiss-segment\SwissSegment.prj" location="C:\swiss-segment\swiss-segment" name="SwissSegment" preferred-package-location="C:\swiss-segment\binaries\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>SwissSegment</param.appname>
     <param.icon>${PROJECT_ROOT}\SwissSegment_resources\icon.ico</param.icon>
     <param.icons>
@@ -21,9 +21,9 @@
     <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
     <param.logo>${PROJECT_ROOT}\splash_thin.jpg</param.logo>
     <param.install.notes />
-    <param.intermediate>${PROJECT_ROOT}\SwissSegment\for_testing</param.intermediate>
-    <param.files.only>${PROJECT_ROOT}\SwissSegment\for_redistribution_files_only</param.files.only>
-    <param.output>${PROJECT_ROOT}\SwissSegment\for_redistribution</param.output>
+    <param.intermediate>C:\swiss-segment\binaries\for_testing</param.intermediate>
+    <param.files.only>C:\swiss-segment\binaries\for_redistribution_files_only</param.files.only>
+    <param.output>C:\swiss-segment\binaries\for_redistribution</param.output>
     <param.enable.clean.build>false</param.enable.clean.build>
     <param.user.defined.mcr.options />
     <param.embed.ctf>true</param.embed.ctf>
@@ -52,11 +52,7 @@
       <param.guid />
       <param.net.saved.interface />
       <param.installpath.combo />
-      <param.intermediate />
-      <param.files.only />
-      <param.output />
       <param.enable.clean.build />
-      <param.user.defined.mcr.options />
       <param.embed.ctf />
       <param.target.type />
       <param.support.packages />
@@ -103,9 +99,9 @@
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\SwissSegment\for_testing" name="readme.txt" optional="true">C:\swiss-segment\swiss-segment\SwissSegment\for_testing\readme.txt</file>
-      <file location="${PROJECT_ROOT}\SwissSegment\for_testing" name="SwissSegment.exe" optional="false">C:\swiss-segment\swiss-segment\SwissSegment\for_testing\SwissSegment.exe</file>
-      <file location="${PROJECT_ROOT}\SwissSegment\for_testing" name="splash.png" optional="false">C:\swiss-segment\swiss-segment\SwissSegment\for_testing\splash.png</file>
+      <file location="C:\swiss-segment\binaries\for_testing" name="splash.png" optional="false">C:\swiss-segment\binaries\for_testing\splash.png</file>
+      <file location="C:\swiss-segment\binaries\for_testing" name="readme.txt" optional="true">C:\swiss-segment\binaries\for_testing\readme.txt</file>
+      <file location="C:\swiss-segment\binaries\for_testing" name="SwissSegment.exe" optional="false">C:\swiss-segment\binaries\for_testing\SwissSegment.exe</file>
     </build-deliverables>
     <workflow />
     <matlab>
